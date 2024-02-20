@@ -1,4 +1,4 @@
-// Program to print Right Half number pyramid in C
+// Program to print Left Half number pyramid in C
 #include <stdio.h>
 int main(){
     int rows;
