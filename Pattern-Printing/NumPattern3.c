@@ -1,4 +1,4 @@
-// Program to print Inverted Left Half number pyramid in C
+// Program to print inverted left half number pyramid in C
 #include <stdio.h>
 int main(){
     int rows;
