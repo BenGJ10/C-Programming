@@ -2,7 +2,7 @@
 #include <stdio.h>
 int main(){
     int rows;
-    printf("Enter the number of rows (Please provide odd values only): ");
+    printf("Enter the number of rows, (Please provide odd values only): ");
     scanf("%d",&rows);
     int r1 = (int)rows/2+1;
     int r2 = rows/2;
