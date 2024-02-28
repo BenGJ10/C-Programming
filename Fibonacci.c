@@ -6,12 +6,16 @@ int main(){
     printf("Enter the number of terms: ");
     scanf("%d",&num);
     printf("The Fibonnaci series for %d terms is: ",num);
-    printf("%d %d ",pprev,prev);
-    for(i=2; i<num; i++){
-        curr = pprev+prev;
+    
+    for(int i=0; i<num; i++){
+        if(i<=1)
+            curr = i;
+        else
+            curr = pprev+prev;
+            pprev = prev;
+            prev = curr;
         printf("%d ",curr);
-        pprev = prev;
-        prev = curr;
     }
+    printf("\n");
     return 0;
 } 
